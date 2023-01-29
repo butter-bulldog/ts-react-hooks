@@ -31,7 +31,7 @@ const Clock = () => {
   const [timestamp, setTimestamp] = useState(new Date())
   const [locale, setLocale] = useState(Locale.US)
 
-  // タイマーのセットをするための副作用
+  // タイマーの初期化処理
   // 空配列を渡した場合は初期描画が終わった直後にのみ実行され、その後の再描画では実行されない
   useEffect(() => {
     const timer = setInterval(() => {

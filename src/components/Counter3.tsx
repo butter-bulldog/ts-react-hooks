@@ -1,7 +1,6 @@
 /**
  * React Hooks useCallback
  * 
- * 
  * IncrementButtonはmemoでラップされたコンポーネントだが、
  * propsのonClickはParentが描画する度に新しくなる
  * 

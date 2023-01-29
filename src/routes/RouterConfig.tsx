@@ -14,15 +14,15 @@ export const RouterConfig = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/usestate" element={<Counter initialValue={1} />} />
-          <Route path="/usereducer" element={<Counter2 initialValue={1}/>} />
-          <Route path="/usecallback" element={<Counter3/>} />
-          <Route path="/usememo" element={<Counter4/>} />
-          <Route path="/useeffect" element={<Clock/>} />
-          <Route path="/usecontext" element={<Hello/>} />
-          <Route path="/useref" element={<ImageUploader/>} />
-          <Route path="/useimperativehandle" element={<Hello2/>} />
+          <Route path="/ts-react-hooks/" element={<Home />} />
+          <Route path="/ts-react-hooks/usestate" element={<Counter initialValue={1} />} />
+          <Route path="/ts-react-hooks/usereducer" element={<Counter2 initialValue={1}/>} />
+          <Route path="/ts-react-hooks/usecallback" element={<Counter3/>} />
+          <Route path="/ts-react-hooks/usememo" element={<Counter4/>} />
+          <Route path="/ts-react-hooks/useeffect" element={<Clock/>} />
+          <Route path="/ts-react-hooks/usecontext" element={<Hello/>} />
+          <Route path="/ts-react-hooks/useref" element={<ImageUploader/>} />
+          <Route path="/ts-react-hooks/useimperativehandle" element={<Hello2/>} />
         </Routes>
       </BrowserRouter>
     </>

@@ -4,21 +4,21 @@ export const Home = () => {
   return (
     <>
       <h1>TypeScript&React Hooksサンプル集</h1>
-      <Link to="/usestate">useState</Link>
+      <Link to="/ts-react-hooks/usestate">useState</Link>
       <br />
-      <Link to="/usereducer">useReducer</Link>
+      <Link to="/ts-react-hooks/usereducer">useReducer</Link>
       <br />
-      <Link to="/usecallback">useCallback</Link>
+      <Link to="/ts-react-hooks/usecallback">useCallback</Link>
       <br />
-      <Link to="/usememo">useMemo</Link>
+      <Link to="/ts-react-hooks/usememo">useMemo</Link>
       <br />
-      <Link to="/useeffect">useEffect</Link>
+      <Link to="/ts-react-hooks/useeffect">useEffect</Link>
       <br />
-      <Link to="/usecontext">useContext</Link>
+      <Link to="/ts-react-hooks/usecontext">useContext</Link>
       <br />
-      <Link to="/useref">useRef</Link>
+      <Link to="/ts-react-hooks/useref">useRef</Link>
       <br />
-      <Link to="/useimperativehandle">useImperativeHandle</Link>
+      <Link to="/ts-react-hooks/useimperativehandle">useImperativeHandle</Link>
       
     </>
   );
